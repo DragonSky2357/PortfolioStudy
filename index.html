@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content=content="width=device-width,
-    initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
 
     <title>Portfolio</title>
+    <!-- 인터넷 익스플로러에서 자바스크립트 관련 차단된 컨텐츠 허용 뜨는것 방지-->
+    <!-- saved from url=(0013)about:internet -->
 
     <!-- icon -->
     <link
@@ -22,7 +26,7 @@
       rel="stylesheet"
     />
 
-    <!-- user style-->
+    <!-- user style -->
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -46,6 +50,35 @@
         </div>
       </nav>
     </header>
+
+    <div class="section-container">
+      <div class="welcome-area">
+        <div class="container">
+          <div class="image-slide fade">
+            <img src="img/laptop-2557468_1920.jpg" />
+          </div>
+          <div class="image-slide fade">
+            <img src="img/computer-1828603_1920.jpg" />
+          </div>
+          <div class="image-slide fade">
+            <img src="img/laptop-2588606_1920.jpg" />
+          </div>
+          <div class="image-slide fade">
+            <img src="img/hacker-1569744_1920.jpg" />
+          </div>
+
+          <a class="image-prev" id="imagePrev">&#10094;</a>
+          <a class="image-next" id="imageNext">&#10095;</a>
+
+          <div class="dots">
+            <span class="dot" id="firstDot"></span>
+            <span class="dot" id="secondDot"></span>
+            <span class="dot" id="thirdDot"></span>
+            <span class="dot" id="forthDot"></span>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- user script -->
     <script src="index.js"></script>
